@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Me | My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                My<span>Portfolio</span>
+            </a>
+
+            <nav class="navbar">
+
+                <a href="index.html">Home</a>
+
+                <a href="about.html" class="active">
+                    About
+                </a>
+
+                <a href="projects.html">
+                    Projects
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- PAGE HERO -->
+
+        <section class="page-hero">
+
+            <div class="container">
+
+                <p>GET TO KNOW ME</p>
+
+                <h1>
+                    👨‍💻 About Me
+                </h1>
+
+                <span>
+                    ทำความรู้จักกับฉันและทักษะของฉัน
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+
+                    <!-- ใส่รูปตัวเองตรงนี้ -->
+				<img src="../../Pictures/02313d41-feb1-403a-9654-35f6082dedeb.jpg" width="0" height="0" border="0" alt="">
+                    <img src="images/profile.jpg"
+                         alt="รูปของฉัน">
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <p class="small-title">
+                        ABOUT ME
+                    </p>
+
+                    <h2>
+                        นางสาว ญาตาวี กองกลิ่น
+                        <span></span>
+                    </h2>
+
+                    <p>
+                        <strong>ฉันเป็นนักเรียนที่สนใจ
+                        การขียนโปรแกรมและการพัฒนาเว็บไซต์
+                        ชอบเรียนรู้เทคโนโลยีใหม่ ๆ
+                        และนำความรู้มาสร้างผลงานที่น่าสนใจ</strong>
+                    </p>
+
+                    <p>
+                        <strong>ฉันมีความสนใจด้าน HTML, CSS,
+                        การออกแบบเว็บไซต์ และการจัดการฐานข้อมูล
+                        รวมถึงการพัฒนาเว็บไซต์ให้สามารถใช้งานได้
+                        บนหลายขนาดหน้าจอ</strong>
+                    </p>
+
+
+                    <div class="info-box">
+
+                        <div>
+                            <strong>🎓 การศึกษา</strong>
+                            <span>นักเรียน/นักศึกษา</span>
+                        </div>
+
+                        <div>
+                            <strong>💻 ความสนใจ</strong>
+                            <span>Web Development</span>
+                        </div>
+
+                        <div>
+                            <strong>🎨 งานอดิเรก</strong>
+                            <span>ออกแบบเว็บไซต์</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section light-section">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p>MY SKILLS</p>
+
+                    <h2>
+                        🛠️ Technical Skills
+                    </h2>
+
+                    <span>
+                        ทักษะด้านการเขียนโปรแกรมและการพัฒนาเว็บไซต์
+                    </span>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+
+                    <!-- HTML -->
+
+                    <div class="skill-card">
+
+                        <div class="skill-top">
+
+                            <h3>HTML</h3>
+
+                            <span>90%</span>
+
+                        </div>
+
+                        <div class="progress">
+
+                            <div class="progress-bar html">
+                            </div>
+
+                        </div>
+
+                        <p>
+                            Semantic HTML และการจัดโครงสร้างเว็บไซต์
+                        </p>
+
+                    </div>
+
+
+                    <!-- CSS -->
+
+                    <div class="skill-card">
+
+                        <div class="skill-top">
+
+                            <h3>CSS</h3>
+
+                            <span>85%</span>
+
+                        </div>
+
+                        <div class="progress">
+
+                            <div class="progress-bar css">
+                            </div>
+
+                        </div>
+
+                        <p>
+                            Layout, Flexbox, Grid และ Responsive Design
+                        </p>
+
+                    </div>
+
+
+                    <!-- C -->
+
+                    <div class="skill-card">
+
+                        <div class="skill-top">
+
+                            <h3>C Programming</h3>
+
+                            <span>75%</span>
+
+                        </div>
+
+                        <div class="progress">
+
+                            <div class="progress-bar c">
+                            </div>
+
+                        </div>
+
+                        <p>
+                            พื้นฐานการเขียนโปรแกรมและ Algorithm
+                        </p>
+
+                    </div>
+
+
+                    <!-- DATABASE -->
+
+                    <div class="skill-card">
+
+                        <div class="skill-top">
+
+                            <h3>Database</h3>
+
+                            <span>70%</span>
+
+                        </div>
+
+                        <div class="progress">
+
+                            <div class="progress-bar database">
+                            </div>
+
+                        </div>
+
+                        <p>
+                            ER Diagram และการออกแบบฐานข้อมูล
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BADGES -->
+
+                <div class="badges">
+
+                    <span>🏆 HTML Beginner</span>
+
+                    <span>🎨 CSS Designer</span>
+
+                    <span>💻 Programmer</span>
+
+                    <span>🗄️ Database Beginner</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TIMELINE ================= -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <p>MY JOURNEY</p>
+
+                    <h2>
+                        📚 Education & Timeline
+                    </h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot">
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span>2024</span>
+
+                            <h3>
+                                🎓 เริ่มเรียนการเขียนโปรแกรม
+                            </h3>
+
+                            <p>
+                                เริ่มศึกษาพื้นฐานการเขียนโปรแกรม
+                                และการคิดแบบ Algorithm
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot">
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span>2025</span>
+
+                            <h3>
+                                🌐 เริ่มพัฒนาเว็บไซต์
+                            </h3>
+
+                            <p>
+                                ศึกษา HTML และ CSS
+                                พร้อมสร้างเว็บไซต์ขนาดเล็ก
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot">
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span>2026</span>
+
+                            <h3>
+                                🚀 สร้าง Personal Portfolio
+                            </h3>
+
+                            <p>
+                                นำความรู้ที่เรียนมาสร้างเว็บไซต์
+                                Portfolio สำหรับนำเสนอผลงาน
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <h3>My<span>Portfolio</span></h3>.
+
+
+            <p>
+                Personal Portfolio Website
+            </p>
+
+            <p class="copyright">
+                © 2026 My Portfolio. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
